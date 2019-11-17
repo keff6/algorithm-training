@@ -7,14 +7,8 @@ cannot use additional data structures?
 
 ## My Solution
 
-### Explanation
-
-> The idea is to create a dictionary with every character of the string. so adding a char would look like `a: true ` . If the character to add happens to be already added to the dictionary, then the string not only contains unique characters, so the algorithm returns `false`. If the string can be added to the dictionary until the end, it means evary character was unique, so it returns `true`.
-In case I can't use a data structure, I may sort the string first and then start comparing neighbors looking for equality.
-
-### Time complexity
-
-> O (n)
+<details>
+  <summary>Click to expand!</summary>
 
 #### Javascript
 ```javascript
@@ -49,10 +43,23 @@ def isUnique(string):
 #test
 print(isUnique('chuk')) # true
 ```
+ ### Explanation
+
+> The idea is to create a dictionary with every character of the string. so adding a char would look like `a: true ` . If the character to add happens to be already added to the dictionary, then the string not only contains unique characters, so the algorithm returns `false`. If the string can be added to the dictionary until the end, it means evary character was unique, so it returns `true`.
+In case I can't use a data structure, I may sort the string first and then start comparing neighbors looking for equality.
+
+### Time complexity
+
+> O (n)
+</details>
+
 
 ## Solution (from the book)
 
-You should first ask your interviewer if the string is an ASCII string or a Unicode string. Asking this question
+<details>
+  <summary>Click to expand!</summary>
+  
+  You should first ask your interviewer if the string is an ASCII string or a Unicode string. Asking this question
 will show an eye for detail and a solid foundation in computer science. We'll assume for simplicity the character
 set is ASCII. If this assumption is not valid, we would need to increase the storage size.
 One solution is to create an array of boolean values, where the flag at index i indicates whether character
@@ -103,3 +110,5 @@ linearly check the string for neighboring characters that are identical. Careful
 algorithms take up extra space.
 These solutions are not as optimal in some respects, but might be better depending on the constraints of
 the problem
+</details>
+
