@@ -1,4 +1,4 @@
-# isUnique
+# checkPermutation
 
 ## Description
 
