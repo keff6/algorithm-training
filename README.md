@@ -12,4 +12,4 @@ The idea of this repository is to keep track on my journey to grow as an algorit
 #### Arrays and Strings
 * [isUnique](https://github.com/keff6/algorithm-training/blob/master/CrackingTheCodingInterview/ArraysAndStrings/1-isUnique.md#isunique)
 * [checkPermutation](https://github.com/keff6/algorithm-training/blob/master/CrackingTheCodingInterview/ArraysAndStrings/2-checkPermutation.md#checkpermutation)
-* [urlify](https://github.com/keff6/algorithm-training/blob/master/CrackingTheCodingInterview/ArraysAndStrings/3-urlfy.md#urlify)
+* [urlify](https://github.com/keff6/algorithm-training/blob/master/CrackingTheCodingInterview/ArraysAndStrings/3-urlify.md#urlify)
